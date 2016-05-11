@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+<<<<<<< HEAD
 #/**
 # * perl script base
 # *
@@ -54,4 +55,9 @@ while(<FILE>) {
 	&debug("read:$_");
 }
 close(FILE);
+=======
+while(<>) {
+	
+}
+>>>>>>> b0a599c97c46bab6f62ce2466c94c4876e7cfccd
 exit;
