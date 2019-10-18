@@ -1,7 +1,7 @@
 <?php
-$time_start = microtime(true);
+$start_ms = microtime(true);
 
 // @todo
 
-$time = microtime(true) - $time_start;
-echo "{$time} sec";
+$diff_ms = microtime(true) - $start_ms;
+echo "{$diff_ms} micro-sec";
